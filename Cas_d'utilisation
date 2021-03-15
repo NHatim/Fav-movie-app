@@ -1,1 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T12:06:59.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="14.4.8" etag="9slFo88TfiLOwYyfl9ys" type="github"><diagram id="noGQUvbaApQw5j8-sl0s">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-15T14:04:32.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="jILLChbs1macHJ81d4SX" version="14.4.8" type="github">
+  <diagram id="noGQUvbaApQw5j8-sl0s" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="64" width="960" height="1496" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-11" value="&lt;span style=&quot;font-size: 36px&quot;&gt;Système de gestion de boucherie&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="80" width="640" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-13" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="890" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-15" value="Commande Menu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-16" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="nSdWd_OgFrgx_Ua5xnlW-13" target="nSdWd_OgFrgx_Ua5xnlW-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="980" as="sourcePoint" />
+            <mxPoint x="610" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-18" value="Include" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="nSdWd_OgFrgx_Ua5xnlW-15" target="nSdWd_OgFrgx_Ua5xnlW-19">
+          <mxGeometry x="-0.1429" width="160" relative="1" as="geometry">
+            <mxPoint x="500" y="1090" as="sourcePoint" />
+            <mxPoint x="660" y="1090" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-19" value="Menu Disponible Date" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="885" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-22" value="Système&lt;br&gt;vérification&lt;br&gt;disponibilité&lt;br&gt;menu" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="745" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-24" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nSdWd_OgFrgx_Ua5xnlW-22" target="nSdWd_OgFrgx_Ua5xnlW-26">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="500" y="1090" as="sourcePoint" />
+            <mxPoint x="660" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-26" value="Vérification disponibilité date menu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="740" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-29" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nSdWd_OgFrgx_Ua5xnlW-26" target="nSdWd_OgFrgx_Ua5xnlW-19">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="890" as="sourcePoint" />
+            <mxPoint x="620" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-30" value="Employé" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="205" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-32" value="Fournisseur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="335" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nSdWd_OgFrgx_Ua5xnlW-30" target="nSdWd_OgFrgx_Ua5xnlW-34">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="535" y="275" as="sourcePoint" />
+            <mxPoint x="615" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-34" value="Commande produit(s)/viande(s)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-35" value="Base&lt;br&gt;de donnée&lt;br&gt;coordonnées&lt;br&gt;fournisseurs" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="205" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-36" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nSdWd_OgFrgx_Ua5xnlW-35" target="nSdWd_OgFrgx_Ua5xnlW-34">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="545" y="285" as="sourcePoint" />
+            <mxPoint x="625" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-37" value="Livraison commandes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="315" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-38" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="nSdWd_OgFrgx_Ua5xnlW-32" target="nSdWd_OgFrgx_Ua5xnlW-37">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="555" y="295" as="sourcePoint" />
+            <mxPoint x="635" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-39" value="Employé" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="465" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-40" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nSdWd_OgFrgx_Ua5xnlW-39" target="nSdWd_OgFrgx_Ua5xnlW-41">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="565" y="305" as="sourcePoint" />
+            <mxPoint x="645" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-41" value="Préparation plat préparée(s) / charcuterie(s)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="445" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-93" value="Employé" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1010" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-94" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="nSdWd_OgFrgx_Ua5xnlW-95">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="580" y="820" as="sourcePoint" />
+            <mxPoint x="525" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSdWd_OgFrgx_Ua5xnlW-95" value="Achat menu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="590" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
